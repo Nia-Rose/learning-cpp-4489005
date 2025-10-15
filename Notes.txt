@@ -1,0 +1,38 @@
+Object Oriented Programming
+
+Modeling
+- Representation of reality
+- Which features is enough to simplify the model, but not make it too complicated?
+
+Encapsulation
+- Keeping data and operations with in their models
+- models should be specific and not deal with things outside its scope
+
+Classes
+- C++ construct for models
+- Include data and funcitons
+- An instance of a class is known as an Object
+- Code has public, private, and protected members
+    - public: any Code
+    - private: only inside the class
+    - protected: inherited classes
+- Inheritcance
+    - subclass inherit members form the superclass
+Polymorphism
+    - subclasses implement something differently than the version they inherited
+    - makes the sibling classes polymorphic
+
+C++ is case sensitive
+
+main function must return an integer
+
+IO
+- all need "std:" then the arrows 
+- <<
+    - cout: character output
+    - endl: end line (inputs newline)
+    - flush: ensures the output has completely been sent to the terminal before waiting for the user input (doesn't input new line)
+- >>
+    - cin: character input
+        - only works for single words
+- 
